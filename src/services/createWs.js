@@ -1,5 +1,4 @@
 import { webSocket } from "rxjs/webSocket";
-import {map, scan, shareReplay, startWith, takeUntil} from "rxjs/operators";
 
 /**
  * Create a rxjs websocket
