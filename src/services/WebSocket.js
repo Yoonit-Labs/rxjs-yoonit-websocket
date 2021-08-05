@@ -52,7 +52,10 @@ const openWebSocketConnection = (webSocketConfig, reconnectionCallback = () => (
 
   connection.close = () => connection.complete()
 
-  //Close connection and return new instance of WebSocket
+  /**
+   * @description Close connection and return new instance of WebSocket
+   * @returns {Observable}
+   */
   connection.restart = function () {
     connection.close()
     return openWebSocketConnection(webSocketConfig, reconnectionCallback)
