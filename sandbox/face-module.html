@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Sandbox </title>
+    <style>
+        pre { background-color: #F1F1F1; padding: 10px; }
+    </style>
+</head>
+<body>
+
+<a href="/"><- Home</a>
+
+<h2>Face Module</h2>
+
+<p>Detection & validate</p>
+<input id="faceDetectionImage" type="file" title="Arquivinho">
+<button id="faceDetection"> Face: Detection </button>
+<pre id="moduleAuth"></pre>
+<hr>
+
+<p>Compare & Authenticate</p>
+<input id="compareImageFirst" type="file" title="Arquivinho"><br>
+<input id="compareImageSecond" type="file" title="Arquivinho"><br>
+<button id="faceCompare" style="margin-top: 18px"> Face: Detection </button>
+<pre id="moduleAuth"></pre>
+<hr>
+
+<!--  SCRIPTS  -->
+<script src="/bundle.js"></script>
+<script src="face-module.js"></script>
+</body>
+</html>

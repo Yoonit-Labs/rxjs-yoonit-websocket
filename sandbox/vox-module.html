@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title> Sandbox </title>
+  <style>
+      pre { background-color: #F1F1F1; padding: 10px; }
+  </style>
+</head>
+<body>
+
+<a href="/"><- Home</a>
+
+
+<h2>Vox Module</h2>
+
+
+<p>STT Record Audio:</p>
+<button id="start"> Start </button>
+<button id="stop" disabled> Stop </button>
+<br>
+<div id="recording" style="display:none">Recording...</div>
+
+<p>STT Upload Audio:</p>
+<form>
+  <div>
+    <input type="file" name="audio" id="audio"/>
+  </div>
+</form>
+<br>
+
+<p style="font-size: 16px">
+  <b>STT Result: </b>
+  <pre id="stt-result"></pre>
+</p>
+<br>
+
+<hr>
+
+<p>TTS:</p>
+<input id="input-tts" type="text"> <button id="tts">TTS</button>
+<br><br>
+<audio id="tts-result" style="display:none" controls>
+  <source src="data:audio/wav;base64,UklGRkb0AgBXQVZFZm10IBAAAAABAAIARKwAABCxAgAEABAATElTVBoAAABJTkZPSVNGVA4AAABMYXZmNTguNDUuMTAwAGRhdGEA9AIAA">
+</audio>
+
+<br><br>
+<button id="restart">Restart WebSocket</button>
+
+<!--  SCRIPTS  -->
+<script src="recorder.js"></script>
+<script src="/bundle.js"></script>
+<script src="vox-module.js"></script>
+
+</body>
+</html>
