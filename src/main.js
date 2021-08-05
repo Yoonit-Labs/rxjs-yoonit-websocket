@@ -1,7 +1,5 @@
-import { Store } from "./store"
-import YooRecorder from './recorder';
-import { openWebSocketConnection } from "./store/config/webSocket";
+import { openWebSocketConnection } from "./services/WebSocket";
 
-export default { Store }
-export { Store, YooRecorder, openWebSocketConnection }
+export default { openWebSocketConnection }
+export { openWebSocketConnection }
 

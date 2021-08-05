@@ -7,6 +7,11 @@ npm/
 # local env files
 .env.local
 .env.*.local
+.env
+.env.production
+.env.staging
+.env.example
+.env.test
 
 # Log files
 npm-debug.log*
