@@ -1,4 +1,4 @@
-# perse-websocket
+# yoo-websocket
 
 ## How to run the project
 ``
@@ -14,7 +14,7 @@ After installing the project:
 
 2- In the project that you want to use Perse websocket, run: `npm link @cyberlabsai/perse-websocket`
 
-3- Then, run `npm run watch` on Perse directory
+3- Then, run `npm run watch` on Yoo Websocket directory
 
 ## How to use it
 
