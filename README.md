@@ -10,11 +10,11 @@ npm run serve
 
 After installing the project:
 
-1- At the root of Perse websocket directory, run: `npm link`
+1- At the root of Yoonit websocket directory, run: `npm link`
 
-2- In the project that you want to use Perse websocket, run: `npm link @cyberlabsai/yoo-websocket`
+2- In the project that you want to use Yoonit websocket, run: `npm link @cyberlabsai/yoo-websocket`
 
-3- Then, run `npm run watch` on Yoo Websocket directory
+3- Then, run `npm run watch` on Yoonit Websocket directory
 
 ## How to use it
 
