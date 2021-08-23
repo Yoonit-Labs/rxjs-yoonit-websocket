@@ -1,7 +1,7 @@
 {
-  "name": "@cyberlabsai/perse-sdk-js",
-  "version": "0.0.1-alpha.4",
-  "description": "The official JavaScript SDK for Perse, by Cyberlabs.",
+  "name": "@cyberlabsai/perse-websocket",
+  "version": "0.0.1",
+  "description": "The official Websocket for Perse, by Cyberlabs.",
   "main": "dist/bundle.js",
   "files": [
     "dist/"
@@ -17,10 +17,7 @@
     "watch:prod": "webpack --watch --progress --mode production"
   },
   "dependencies": {
-    "axios": "^0.21.1",
-    "nedb": "^1.8.0",
-    "rxjs": "^6.6.6",
-    "snake-camel": "^1.0.8"
+    "rxjs": "^6.6.6"
   },
   "devDependencies": {
     "@babel/core": "^7.13.10",
