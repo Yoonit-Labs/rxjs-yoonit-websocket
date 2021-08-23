@@ -28,7 +28,7 @@ a new websocket instance. It's necessary to [subscribe] response handler again. 
 understand more about getting ws response.
 
 ```
-Import YoonitWs from @cyberlabsai/yoonit-ws
+Import YoonitWs from @cyberlabsai/yoo-websocket
 
 YoonitWs.openWebSocketConnection({ url: process.env.WS_URL, serializer: (e) => return e, binaryType: 'arraybuffer' }, reconnectionCallback)
 
@@ -37,7 +37,7 @@ YoonitWs.openWebSocketConnection({ url: process.env.WS_URL, serializer: (e) => r
 - If you don't need custom setup, just pass url to the method
 
 ```
-Import YoonitWs from @cyberlabsai/yoonit-ws
+Import YoonitWs from @cyberlabsai/yoo-websocket
 
 YoonitWs.openWebSocketConnection(process.env.WS_URL, reconnectionCallback)
 ```
