@@ -46,7 +46,7 @@ YoonitWs.openWebSocketConnection(process.env.WS_URL, reconnectionCallback)
 
 - To get websocket response, is necessary to subscribe a function to be the handler.
 
-Ie: `YoonitWsInstance.subscribe(responseHandler)`
+Ie: `YoonitWsInstanc.subscribe(responseHandler)`
 
 
 ## Restarting Websocket
