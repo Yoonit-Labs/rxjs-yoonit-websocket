@@ -2,7 +2,7 @@
 
 ## How to run the project
 ``
-npm install @cyberlabsai/yoo-websocket
+npm install @cyberlabsai/yoonit-websocket
 npm run serve
 ``
 
@@ -12,7 +12,7 @@ After installing the project:
 
 1- At the root of Yoonit websocket directory, run: `npm link`
 
-2- In the project that you want to use Yoonit websocket, run: `npm link @cyberlabsai/yoo-websocket`
+2- In the project that you want to use Yoonit websocket, run: `npm link @cyberlabsai/yoonit-websocket`
 
 3- Then, run `npm run watch` on Yoonit Websocket directory
 
