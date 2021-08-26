@@ -1,20 +1,9 @@
 # yoo-websocket
 
-## How to run the project
+## How install the project
 ``
 npm install @cyberlabsai/yoonit-websocket
-npm run serve
 ``
-
-## How to build locally and use it on another project
-
-After installing the project:
-
-1- At the root of Yoonit websocket directory, run: `npm link`
-
-2- In the project that you want to use Yoonit websocket, run: `npm link @cyberlabsai/yoonit-websocket`
-
-3- Then, run `npm run watch` on Yoonit Websocket directory
 
 ## How to use it
 
